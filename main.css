@@ -102,6 +102,7 @@ h5{
     width:350px;
     height: 612px;
     margin: 0 auto;
+    box-shadow: 2px 5px 15px 0px #17161694;
     background-image: url(assets/business\ card\ back\ R4C.svg)
 }
 
