@@ -1,0 +1,109 @@
+h1{
+    font-family: 'Roboto', sans-serif; font-weight: 900;
+    
+}
+
+h6{
+    font-family: 'Roboto', sans-serif; font-weight: 400;
+}
+
+h5{
+    font-family: 'Roboto', sans-serif; font-weight: 100;
+}
+
+.front-card{
+    width:350px;
+    height: 612px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    color: white;
+    box-shadow: 2px 5px 15px 0px #17161694;
+    background-image: url(assets/business\ card\ front\ image-01.svg)
+}
+
+.my-name-is{
+    margin-left:40px;
+    top:80px;
+    position: relative;
+    font-size: 48px;
+}
+
+.DK{
+    font-size: 120px;
+    position: relative;
+    top: -55px;
+    margin-left: 35px;
+}
+
+.name{
+    font-size: 25px;
+    position: relative;
+    top: -95px;
+    margin-left: 40px;
+}
+
+.pronouns{
+    font-size: 13px;
+    position: relative;
+    margin-left: 225px;
+    top: -173px;
+
+}
+
+.title{
+    font-size: 25px;
+    position: relative;
+    margin-left: 40px;
+    top: -200px;
+}
+
+
+
+
+.icon-container{
+    display:grid;
+    width: 32px;
+    margin-left: 40px;
+    position: relative;
+    top: -429px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template: none;
+    grid-gap: 19px;
+    
+  }
+ 
+  .insta-handle{
+      font-size: 20px;
+      position: relative;
+      margin-left: 110px;
+      top: -213px;
+      color: #b20000;
+
+  }
+  
+  .email-address{
+      font-size: 20px;
+      position: relative;
+      margin-left: 110px;
+      top: -230px;
+      color: #faed15
+  }
+
+.phone-number{
+    font-size: 20px;
+    position: relative;
+    margin-left: 110px;
+    top: -245px;
+    color: #fbae1d;
+}
+
+  .back-card{  
+    width:350px;
+    height: 612px;
+    margin: 0 auto;
+    background-image: url(assets/business\ card\ back\ R4C.svg)
+}
+
+
+body {background:linear-gradient(0deg,  #faed15, #fbae1d 40%, #b20000); }
